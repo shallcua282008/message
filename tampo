@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0a0a0f; /* dark background */
+        color: hotpink; /* pink text */
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+    nag tatampo pa rin Ako kasi hinahayaan mong hawakan ka NG ibang tao
+</body>
+</html>
