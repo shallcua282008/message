@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For You ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0a0a0f;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    /* Section styling */
+    section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        text-align: center;
+    }
+
+    h1, h2 {
+        margin: 0;
+    }
+
+    /* Colorful gradients */
+    .gradient-1 {
+        background: linear-gradient(180deg, #0a0a0f, #3a003c);
+    }
+
+    .gradient-2 {
+        background: linear-gradient(180deg, #3a003c, #d10077);
+    }
+
+    .gradient-3 {
+        background: linear-gradient(180deg, #d10077, #ff5fa2);
+    }
+
+    .heart {
+        font-size: 6rem;
+        color: hotpink;
+        animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.15); opacity: 0.8; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+
+    .message {
+        max-width: 600px;
+        font-size: 1.3rem;
+        color: #ffd0ea;
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- SECTION 1 -->
+<section class="gradient-1">
+    <h1 style="color:pink;">Hi Love 💕</h1>
+    <p class="message">I made this just for you. Scroll down. 💗</p>
+</section>
+
+<!-- SECTION 2 -->
+<section class="gradient-2">
+    <div class="heart">❤️</div>
+    <h2 style="color:pink; margin-top:20px;">You mean the world to me.</h2>
+    <p class="message">Thank you for being you. Thank you for being mine.</p>
+</section>
+
+<!-- SECTION 3 -->
+<section class="gradient-3">
+    <h1 style="color:#ffe3f3;">And I love you</h1>
+    <h1 style="color:pink;">More than anything. 💞</h1>
+    <p class="message">Just wanted you to know that. Always.</p>
+</section>
+
+</body>
+</html>
